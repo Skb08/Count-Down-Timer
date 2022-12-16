@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url("./bg08.jpg") center center;
+    background: url("./doctor.jpg") center center;
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0,0, 0.6);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    padding-top: 180px;
+}
+.title{
+    margin-top: 10px;
+    font-size: 2.5rem;
+    color: #9fc6e8;
+    text-align: center;
+}
+.entry{
+    width: 1000px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.box{
+    width: 100px;
+    margin: 10px;
+}
+
+#month{
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: rgb(225 191 191 / 63%);
+    font-weight: bold;
+}
+#time{
+    text-align: center;
+    width: 70px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: rgb(225 191 191 / 63%);
+}
+#bt{
+    width: 100px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: rgba(147, 205, 230, 0.7);
+    border:2px solid rgb(30, 101, 255);
+    font-weight: bold;
+}
+
+.col{
+    width: 1000px;
+    margin-top: 40px;
+    /* height: 100px; */
+    /* border:2px solid red; */
+    /* margin:10px auto; */
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.col div{
+    width: 250px;
+    text-align: center;
+}
+input{
+    /* display: block; */
+    height: 50px;
+    width: 50%;
+    background-color: rgb(225 191 191 / 63%);
+    border-color: transparent;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 30px;
+
+}
